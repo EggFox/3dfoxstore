@@ -1,13 +1,13 @@
 {
 	"storeInfo": {
-		"url": "https://raw.githubusercontent.com/LinUwUxCat/LinuxCat-s-Store/master/unistore/linuxcat-store.unistore",
+		"url": "https://github.com/EggFox/3dfoxstore/blob/main/3dfoxstore.unistore",
 		"file": "3dfoxstore.unistore",
 		"title": "3DFox OS Store",
 		"author": "3DFox OS Team",
 		"description": "3DFox OS Offical Store",
 		"revision":33,
 		"sheet": "3dfoxstore.t3x",
-		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
+		"sheetURL": "https://github.com/EggFox/3dfoxstore/blob/main/3dfoxstore.t3x",
 		"version": 3
 	},
 	"storeContent": [{
