@@ -1,0 +1,91 @@
+{
+	"storeInfo": {
+		"url": "https://raw.githubusercontent.com/LinUwUxCat/LinuxCat-s-Store/master/unistore/linuxcat-store.unistore",
+		"file": "3dfoxstore.unistore",
+		"title": "3DFox OS Store",
+		"author": "3DFox OS Team",
+		"description": "3DFox OS Offical Store",
+		"revision":33,
+		"sheet": "3dfoxstore.t3x",
+		"sheetURL": "https://github.com/LinUwUxCat/LinuxCat-s-Store/raw/master/unistore/linuxcat-store.t3x",
+		"version": 3
+	},
+	"storeContent": [{
+		"Download 3DFox OS 4": [{
+			"type": "downloadFile",
+			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zip",
+			"output": "sdmc:/3dfoxos/3dfoxstore",
+			"message": "Downloading 3DFox OS 4..."
+		}, {
+			"type": "extractFile",
+			"file": "/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.zip",
+			"input": "",
+			"output": "/",
+			"message": "Extracting 3DFox OS..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.zip",
+			"message": "Deleting zip file..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/3dfoxos/3dfoxstore",
+			"message": "Finalizing..."
+  		}],
+		"info": {
+			"title": "3DFox OS",
+			"version": "4.0",
+			"author": "3DFox OS Team",
+			"category": ["OS"],
+			"console": ["3DS"],
+			"icon_index":0,
+			"license": "",
+			"description": "Offical 3DFox OS"
+		}
+	},
+	{
+		"Download FBI In Homebrew Launcher": [{
+			"file": "https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.3dsx",
+			"message":"Downloading FBI File...",
+			"output": "sdmc:/3ds/",
+			"type": "downloadFile"
+		}],
+		"info": {
+			"title": "FBI In Homebrew Launcher",
+			"version": "2.6.1",
+			"author": "Steveice10",
+			"category": ["Apps"],
+			"console": ["3DS"],
+			"icon_index":1,
+			"license": "",
+			"description": "A installer cia on Homebrew Launcher"
+		}
+	},
+	{
+		"Download ThirdTube": [{
+			"file": "https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.cia",
+			"message":"Downloading the App...",
+			"output": "sdmc:/3dfoxos/3dfoxstore/",
+			"type": "downloadFile"
+		},
+		{
+			"file": "/3dfoxos/3dfoxstore/ThirdTube.cia",
+			"message": "Installing ThirdTube...",
+			"type": "installCia"
+		},
+		{
+			"file": "sdmc:/3dfoxos/3dfoxstore/ThirdTube.cia",
+		  	"message": "Deleting Cia...",
+		 	"type": "deleteFile"
+		}],
+		"info": {
+			"title": "ThirdTube",
+			"version": "0.5.1",
+			"author": "windows-server-2003",
+			"category": ["Apps"],
+			"console": ["3DS"],
+			"icon_index":3,
+			"license": "",
+			"description": "YouTube client for 3DS"
+		}
+	}]
+}
