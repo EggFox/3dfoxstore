@@ -44,7 +44,7 @@
 	},
 	{
 		"Download FBI In Homebrew Launcher": [{
-			"file": "https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.3dsx",
+			"file": "https://github.com/EggFox/3dfoxstore/blob/main/apps/FBI.3dsx",
 			"message":"Downloading FBI File...",
 			"output": "sdmc:/3ds/",
 			"type": "downloadFile"
@@ -62,7 +62,7 @@
 	},
 	{
 		"Download ThirdTube": [{
-			"file": "https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.cia",
+			"file": "https://github.com/EggFox/3dfoxstore/blob/main/apps/ThirdTube.cia",
 			"message":"Downloading the App...",
 			"output": "sdmc:/3dfoxos/3dfoxstore/",
 			"type": "downloadFile"
