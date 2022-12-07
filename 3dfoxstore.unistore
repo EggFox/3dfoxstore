@@ -13,7 +13,7 @@
 	"storeContent": [{
 		"Download 3DFox OS": [{
 			"type": "downloadFile",
-			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zip",
+			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zi",
 			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
 			"message": "Downloading 3DFox OS 4..."
 		}, {
@@ -44,7 +44,7 @@
 	},
 	{
 		"Download FBI On Homebrew": [{
-			"file": "https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.3dsx",
+			"file": "https://github.com/EggFox/3dfoxstore/releases/download/2.6.1/FBI.3dsx",
 			"message":"Downloading FBI HB...",
 			"output": "sdmc:/3ds/",
 			"type": "downloadFile"
