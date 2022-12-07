@@ -1,55 +1,45 @@
-"storeInfo": {
-    "title": "3DFox Store",
-    "author": "3DFox OS Team",
-    "description": "3DFoxOS Official Store",
-    "file": "3dfoxstore.unistore",
-    "url": "https://raw.githubusercontent.com/EggFox/3dfoxstore/main/3dfoxstore.unistore",
-    "sheet": "3dfoxstore.t3x",
-    "sheetURL": "https://github.com/EggFox/3dfoxstore/blob/main/3dfoxstore.t3x",
-    "bg_index": 0,
-    "bg_sheet": 0,
-    "version": 3,
-    "revision": 60
+{
+	"storeInfo": {
+		"url": "https://raw.githubusercontent.com/EggFox/3dfoxstore/main/3dfoxstore.unistore",
+		"file": "3dfoxstore.unistore",
+		"title": "3DFox Store",
+		"author": "3DFox OS Team",
+		"description": "3DFox OS Official Store",
+		"revision":33,
+		"sheet": "3dfoxstore.t3x",
+		"sheetURL": "https://github.com/EggFox/3dfoxstore/raw/main/3dfoxstore.t3x",
+		"version": 3
+	},
+	"storeContent": [{
+		"Download 3DFox OS EUR": [{
+			"type": "downloadFile",
+			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zip",
+			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
+			"message": "Downloading 3DFox OS..."
+		}, {
+			"type": "extractFile",
+			"file": "/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.zip",
+			"input": "",
+			"output": "/",
+			"message": "Extracting from the zip..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.zip",
+			"message": "Deleting zip file..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/readme.txt",
+			"message": "Deleting file..."
+  		}],
+		"info": {
+			"title": "3DFox OS",
+			"version": "4.0",
+			"author": "EggFox",
+			"category": ["OS"],
+			"console": ["3DS"],
+			"icon_index":0,
+			"license": "",
+			"description": "Official 3DFox OS"
+		}
+	}]
 }
-"storeContent": [
-    {
-        "info": {
-            "title": "Universal-Updater",
-            "author": "Universal-Team",
-            "version": "v2.5.1",
-            "category": ["utility"],
-            "console": ["3DS"],
-            "description": "A multiapp, JSON script-based updater for Nintendo 3DS",
-            "license": "gpl-3.0",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2020-07-02 at 14:03 (UTC)"
-        },
-        "Download Universal-Updater.3dsx": [
-            {
-                "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx",
-                "message": "Downloading Universal-Updater.3dsx...",
-                "output": "sdmc:/3ds/Universal-Updater.3dsx",
-                "type": "downloadFile"
-            }
-        ],
-        "Download Universal-Updater.cia": [
-            {
-                "file": "https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia",
-                "message": "Downloading Universal-Updater.cia...",
-                "output": "sdmc:/Universal-Updater.cia",
-                "type": "downloadFile"
-            },
-            {
-                "file": "/Universal-Updater.cia",
-                "message": "Installing Universal-Updater.cia...",
-                "type": "installCia"
-            },
-            {
-                "file": "sdmc:/Universal-Updater.cia",
-                "message": "Deleting Universal-Updater.cia.",
-                "type": "deleteFile"
-            }
-        ]
-    }
-]
