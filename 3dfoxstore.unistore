@@ -2,118 +2,108 @@
 	"storeInfo": {
 		"url": "https://www.3dfoxos.ga/3dfoxstore.unistore",
 		"file": "3dfoxstore.unistore",
-		"title": "3DFox OS Store",
-		"author": "3DFox OS Team",
+		"title": "3DFox Store",
+		"author": "3DFoxOS Team",
 		"description": "3DFox OS Offical Store",
 		"revision":33,
 		"sheet": "3dfoxstore.t3x",
-		"sheetURL": "https://github.com/EggFox/3dfoxstore/blob/main/3dfoxstore.t3x",
+		"sheetURL": "https://www.3dfoxos.ga/3dfoxstore.t3x",
 		"version": 3
 	},
 	"storeContent": [{
-		"Download 3DFox OS 4": [{
+		"Download 3DFox OS": [{
 			"type": "downloadFile",
 			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zip",
-			"output": "sdmc:/3dfoxos/3dfoxstore",
+			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
 			"message": "Downloading 3DFox OS 4..."
 		}, {
 			"type": "extractFile",
-			"file": "/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.zip",
+			"file": "/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
 			"input": "",
 			"output": "/",
-			"message": "Extracting 3DFox OS..."
+			"message": "Extracting from the zip..."
 		}, {
 			"type": "deleteFile",
-			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.zip",
+			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
 			"message": "Deleting zip file..."
 		}, {
 			"type": "deleteFile",
-			"file": "sdmc:/3dfoxos/3dfoxstore",
-			"message": "Finalizing..."
+			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
+			"message": "Deleting file..."
   		}],
 		"info": {
 			"title": "3DFox OS",
 			"version": "4.0",
-			"author": "3DFox OS Team",
+			"author": "3DFoxOS Team",
 			"category": ["OS"],
 			"console": ["3DS"],
 			"icon_index":0,
 			"license": "",
-			"description": "Offical 3DFox OS"
+			"description": "The Official 3DFox OS System"
 		}
 	},
 	{
-		"Download FBI In Homebrew Launcher": [{
-			"file": "https://github.com/EggFox/3dfoxstore/releases/download/2.6.1/FBI.3dsx",
-			"message":"Downloading FBI File...",
+		"Download FBI On Homebrew": [{
+			"file": "https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.3dsx",
+			"message":"Downloading FBI HB...",
 			"output": "sdmc:/3ds/",
 			"type": "downloadFile"
 		}],
 		"info": {
-			"title": "FBI In Homebrew Launcher",
+			"title": "FBI On Homebrew Launcher",
 			"version": "2.6.1",
 			"author": "Steveice10",
 			"category": ["Apps"],
 			"console": ["3DS"],
 			"icon_index":1,
 			"license": "",
-			"description": "A installer cia on Homebrew Launcher"
+			"description": "A Cia Installer"
 		}
 	},
 	{
-		"Download ThirdTube": [{
-			"file": "https://github.com/EggFox/3dfoxstore/releases/download/0.5.1/ThirdTube.cia",
-			"message":"Downloading the App...",
-			"output": "sdmc:/3dfoxos/3dfoxstore/",
+		"Download Menu Tool": [{
+			"file": "https://github.com/LinUwUxCat/GBAButtonTest/releases/download/v1.0/ButtonTest.gba",
+			"message":"Downloading GBAButtonTest...",
+			"output": "sdmc:/roms/gba/ButtonTest.gba",
 			"type": "downloadFile"
-		},
-		{
-			"file": "/3dfoxos/3dfoxstore/ThirdTube.cia",
-			"message": "Installing ThirdTube...",
-			"type": "installCia"
-		},
-		{
-			"file": "sdmc:/3dfoxos/3dfoxstore/ThirdTube.cia",
-		  	"message": "Deleting Cia...",
-		 	"type": "deleteFile"
 		}],
 		"info": {
-			"title": "ThirdTube",
-			"version": "0.5.1",
-			"author": "windows-server-2003",
-			"category": ["Apps"],
-			"console": ["3DS"],
+			"title": "GBAButtonTest",
+			"version": "1.0",
+			"author": "LinuxCat",
+			"category": ["utility"],
+			"console": ["GBA"],
 			"icon_index":2,
 			"license": "",
-			"description": "YouTube client for 3DS"
+			"description": "Classic Button Test For GBA. Willd download a .gba file in sdmc:/roms/gba/"
 		}
-	}],
+	},
 	{
-			"Download hShop": [{
-			"file": "https://github.com/EggFox/3dfoxstore/releases/download/0.5.1/ThirdTube.cia",
-			"message":"Downloading the App...",
-			"output": "sdmc:/3dfoxos/3dfoxstore/",
+		"Download LM2DLPAL": [{
+			"file": "https://github.com/LinUwUxCat/Luigis-Mansion-2-DLP-App-Launcher/releases/download/0.1/LM2DLPAL.cia",
+			"message":"Downloading the app...",
+			"output": "sdmc:/LM2DLPAL.cia",
 			"type": "downloadFile"
 		},
 		{
-			"file": "/3dfoxos/3dfoxstore/3hs.cia",
-			"message": "Installing hShop...",
+			"file": "/LM2DLPAL.cia",
+			"message": "Installing LM2DLPAL.cia...",
 			"type": "installCia"
 		},
 		{
-			"file": "sdmc:/3dfoxos/3dfoxstore/3hs.cia",
-		  	"message": "Deleting Cia...",
+			"file": "sdmc:/LM2DLPAL.cia",
+		  	"message": "Deleting LM2DLPAL.cia.",
 		 	"type": "deleteFile"
 		}],
 		"info": {
-			"title": "hShop",
-			"version": "1.3.7",
-			"author": "unknown",
-			"category": ["Apps"],
+			"title": "Luigi's Mansion 2 DLP app launcher",
+			"version": "0.1",
+			"author": "LinuxCat",
+			"category": ["utility"],
 			"console": ["3DS"],
 			"icon_index":3,
 			"license": "",
-			"description": "A Alternative of FreeShop"
+			"description": "LM2DLPAL launches the DlP app of Luigi's Mansion 2 (Dark Moon)"
 		}
-    }]
+	}]
 }
