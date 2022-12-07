@@ -88,6 +88,7 @@
 			"description": "YouTube client for 3DS"
 		}
 	}],
+	{
 			"Download hShop": [{
 			"file": "https://github.com/EggFox/3dfoxstore/releases/download/0.5.1/ThirdTube.cia",
 			"message":"Downloading the App...",
@@ -114,4 +115,5 @@
 			"license": "",
 			"description": "A Alternative of FreeShop"
 		}
+    }]
 }
