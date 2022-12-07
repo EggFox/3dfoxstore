@@ -1,13 +1,13 @@
 {
 	"storeInfo": {
-		"url": "https://www.3dfoxos.ga/3dfoxstore.unistore",
+		"url": "https://raw.githubusercontent.com/EggFox/3dfoxstore/main/3dfoxstore.unistore",
 		"file": "3dfoxstore.unistore",
 		"title": "3DFox Store",
 		"author": "3DFoxOS Team",
 		"description": "3DFox OS Offical Store",
 		"revision":33,
 		"sheet": "3dfoxstore.t3x",
-		"sheetURL": "https://www.3dfoxos.ga/3dfoxstore.t3x",
+		"sheetURL": "https://github.com/EggFox/3dfoxstore/blob/main/3dfoxstore.t3x",
 		"version": 3
 	},
 	"storeContent": [{
