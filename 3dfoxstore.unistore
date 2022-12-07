@@ -13,7 +13,7 @@
 	"storeContent": [{
 		"Download 3DFox OS": [{
 			"type": "downloadFile",
-			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zi",
+			"file": "https://github.com/EggFox/3DFox-OS/releases/download/4.0/3DFox_OS_EUR_v4.0.zip",
 			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v4.0.zip",
 			"message": "Downloading 3DFox OS 4..."
 		}, {
