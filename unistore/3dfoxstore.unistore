@@ -33,12 +33,12 @@
   		}],
 		"info": {
 			"title": "3DFox OS",
-			"version": "5.0b3",
+			"version": "5.0b2",
 			"author": "EggFox",
 			"category": ["OS"],
 			"console": ["3DS"],
 			"icon_index":0,
-			"license": "",
+			"license": "Hemmm....",
 			"description": "Official 3DFox OS"
 		}
 	}]
