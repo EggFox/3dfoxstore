@@ -13,18 +13,18 @@
 	"storeContent": [{
 		"Download 3DFox OS EUR": [{
 			"type": "downloadFile",
-			"file": "https://github.com/EggFox/3DFox-OS/releases/download/5.0b2/3DFox_OS_EUR_v5.0b2.zip",
-			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v5.0b2.zip",
+			"file": "https://github.com/EggFox/3DFox-OS/releases/download/5.0b3/3DFox_OS_EUR_5.0b3.zip",
+			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v5.0b3.zip",
 			"message": "Downloading 3DFox OS..."
 		}, {
 			"type": "extractFile",
-			"file": "/3dfoxos/3dfoxstore/3DFox_OS_EUR_v5.0b2.zip",
+			"file": "/3dfoxos/3dfoxstore/3DFox_OS_EUR_v5.0b3.zip",
 			"input": "",
 			"output": "/",
 			"message": "Extracting from the zip..."
 		}, {
 			"type": "deleteFile",
-			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v5.0b2.zip",
+			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_EUR_v5.0b3.zip",
 			"message": "Deleting zip file..."
 		}, {
 			"type": "deleteFile",
@@ -33,7 +33,7 @@
   		}],
 		"info": {
 			"title": "3DFox OS",
-			"version": "5.0b2",
+			"version": "5.0b3",
 			"author": "EggFox",
 			"category": ["OS"],
 			"console": ["3DS"],
