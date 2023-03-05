@@ -31,6 +31,26 @@
 			"file": "sdmc:/readme.txt",
 			"message": "Deleting file..."
   		}],
+		"Download 3DFox OS USA": [{
+			"type": "downloadFile",
+			"file": "https://github.com/EggFox/3DFox-OS/releases/download/5.0/3DFox_OS_USA_v5.0.zip",
+			"output": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_USA_v5.0.zip",
+			"message": "Downloading 3DFox OS..."
+		}, {
+			"type": "extractFile",
+			"file": "/3dfoxos/3dfoxstore/3DFox_OS_USA_v5.0.zip",
+			"input": "",
+			"output": "/",
+			"message": "Extracting from the zip..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/3dfoxos/3dfoxstore/3DFox_OS_USA_v5.0.zip",
+			"message": "Deleting zip file..."
+		}, {
+			"type": "deleteFile",
+			"file": "sdmc:/readme.txt",
+			"message": "Deleting file..."
+			}],
 		"info": {
 			"title": "3DFox OS",
 			"version": "5.0",
@@ -38,7 +58,7 @@
 			"category": ["OS"],
 			"console": ["3DS"],
 			"icon_index":0,
-			"license": "",
+			"license": "Hemmm....",
 			"description": "Official 3DFox OS"
 		}
 	}]
